@@ -8350,8 +8350,28 @@ button.close {
   }
 }
 
+.mayus {
+  text-transform: uppercase;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
 .red {
   color: #cc030d;
+}
+
+.gray {
+  color: #aaa;
+}
+
+.white {
+  color: #ffffff;
+}
+
+h1.title {
+  text-align: center;
 }
 
 .title {
@@ -8511,9 +8531,8 @@ body {
 }
 
 .nigiri-container .item {
-  height: 250px;
+  height: auto;
   display: inline-block;
-  background: red;
   width: 100%;
 }
 
@@ -8523,13 +8542,42 @@ body {
   display: block;
 }
 
+.slick-dots {
+  padding: 0;
+  text-align: center;
+}
+
+.slick-dots li {
+  display: inline-block;
+  border-radius: 50%;
+  border: none;
+  background: white;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  color: transparent;
+  margin: 10px 5px;
+}
+
+.slick-dots li.slick-active {
+  background: red;
+}
+
 .download-menu {
   margin: 40px 0;
+}
+
+.download-menu a {
+  text-decoration: underline;
 }
 
 .bento-svg {
   width: 200px;
   height: auto;
+}
+
+.bentobox-content {
+  padding: 0;
 }
 
 .price {
@@ -8539,5 +8587,153 @@ body {
 .map {
   background: gray;
   height: 220px;
+}
+
+.rapi-plus-uber ul {
+  padding: 0;
+  margin: 40px 0;
+  text-align: center;
+}
+
+.rapi-plus-uber ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.rapi-plus-uber ul li img {
+  width: 60px;
+  height: auto;
+  display: block;
+}
+
+.instagram-feed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.instagram-feed .instagram-item {
+  width: 32%;
+  height: 100px;
+  display: inline-block;
+  background: gray;
+}
+
+.credits {
+  margin: 40px 0 20px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-toggle {
+    display: block;
+  }
+
+  .main-banners-container {
+    height: 420px;
+  }
+
+  h1.title {
+    text-align: left;
+    margin-top: 50px;
+    font-size: 2.3em;
+  }
+
+  .title {
+    font-size: 2em;
+  }
+
+  .concept-text-container {
+    padding-top: 0;
+  }
+
+  .concept-image {
+    margin-top: -50px;
+  }
+
+  .dishes-menu ul li a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 3em;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .dishes-menu ul li a.icon-nigiri {
+    font-size: 3.8em;
+  }
+
+  .dishes-menu ul li a.icon-nigiri span {
+    font-size: .33em;
+    margin-top: -17px;
+  }
+
+  .dishes-menu ul li a span {
+    font-size: .4em;
+  }
+
+  .download-menu {
+    font-size: 1.8em;
+  }
+
+  .bento-svg {
+    width: 100%;
+    margin-top: -30px;
+  }
+
+  .map {
+    height: 280px;
+  }
+
+  .address-schedule {
+    text-align: center;
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  h1.title {
+    font-size: 2.4em;
+  }
+
+  .concep-text {
+    font-size: 1.4em;
+  }
+
+  .title {
+    padding: 40px 0;
+  }
+
+  .bento-svg {
+    margin-top: -40px;
+  }
+
+  .map {
+    height: 350px;
+  }
+
+  .rapi-plus-uber ul li img {
+    width: 80px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .navbar-brand > img {
+    width: 180px;
+  }
+
+  .main-banners-container {
+    height: 650px;
+  }
+
+  .address-schedule {
+    font-size: 1.5em;
+  }
 }
 

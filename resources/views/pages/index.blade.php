@@ -1,7 +1,7 @@
 @extends('app')
 
 @section('content')
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row">
 			<div class="main-banners-container">
 				<div class="item one"></div>
@@ -11,7 +11,7 @@
 
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-12 text-center">
+			<div class="col-xs-12 col-sm-6 col-sm-offset-6">
 				<h1 class="title">Nuestro concepto</h1>
 			</div>
 		</div>
@@ -34,10 +34,10 @@
 			
 			<div class="col-xs-12 dishes-menu">
 				<ul>
-					<li><a href="#" class="icon-nigiri active"></a></li>
-					<li><a href="#" class="icon-maki"></a></li>
-					<li><a href="#" class="icon-handroll"></a></li>
-					<li><a href="#" class="icon-entradas"></a></li>
+					<li><a href="#" class="icon-nigiri active"> &nbsp; <span class="hidden-xs mayus">nigiris</span></a></li>
+					<li><a href="#" class="icon-maki"> &nbsp; <span class="hidden-xs mayus">makis</span></a></li>
+					<li><a href="#" class="icon-handroll"> &nbsp; <span class="hidden-xs mayus">hand roll</span></a></li>
+					<li><a href="#" class="icon-entradas"> &nbsp; <span class="hidden-xs mayus">entradas / sopas</span></a></li>
 				</ul>
 			</div>
 
@@ -47,6 +47,22 @@
 					<p class="title text-center">Nigiri de camarón</p>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisi sunt id dicta voluptate, ratione consectetur soluta laborum sequi impedit natus commodi quaerat fugit eum nobis, mollitia aut voluptatem ullam!</p>
 				</div>
+				<div class="item">
+					<img src="images/producto-nigiri-01.jpg" alt="producto nigiri 01">
+					<p class="title text-center">Nigiri de camarón</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisi sunt id dicta voluptate, ratione consectetur soluta laborum sequi impedit natus commodi quaerat fugit eum nobis, mollitia aut voluptatem ullam!</p>
+				</div>
+				<div class="item">
+					<img src="images/producto-nigiri-01.jpg" alt="producto nigiri 01">
+					<p class="title text-center">Nigiri de camarón</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisi sunt id dicta voluptate, ratione consectetur soluta laborum sequi impedit natus commodi quaerat fugit eum nobis, mollitia aut voluptatem ullam!</p>
+				</div>
+				<div class="item">
+					<img src="images/producto-nigiri-01.jpg" alt="producto nigiri 01">
+					<p class="title text-center">Nigiri de camarón</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisi sunt id dicta voluptate, ratione consectetur soluta laborum sequi impedit natus commodi quaerat fugit eum nobis, mollitia aut voluptatem ullam!</p>
+				</div>
+				
 			</div>
 		</div>
 
@@ -59,11 +75,14 @@
 		<div class="row">
 			<div class="col-xs-12 text-center">
 				<h2 class="title">Bento BOX</h2>
+			</div>
+
+			<div class="col-xs-12 col-sm-4 col-md-5">
 				<img class="bento-svg" src="images/bentobox.svg" alt="bentobox">
 			</div>
 
-			<div class="col-xs-12">
-				<ul>
+			<div class="col-xs-12 col-sm-8 col-md-7">
+				<ul class="bentobox-content">
 					<li>3 PARES DE NIGIRI (6 pzas totales)*</li>
 					<li>1 HAND ROLL O MAKI</li>
 					<li>1 YAKIMESHI (arroz frito) O MISO (sopa)</li>
@@ -75,30 +94,8 @@
 					*Hamachi, Ikura y Unagui tiene costo extra.
 				</p>
 
-				<p class="price red text-center">$260</p>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-xs-12 text-center">
-				<h2 class="title">SUCURSAL</h2>
-			</div>
-			<div class="col-xs-12 map"></div>
-			<div class="col-xs-12">
-				<p class="title text-center">Providencia</p>
-				<p>
-					Av. Pablo Neruda 3158<br>
-					Col. Providencia<br>
-					Tel. 3640·0589<br>
-					<span class="icon-wa"></span> 333 1482 572
-				</p>
-				<p>
-					Horario: <br>
-					Lunes a domingo de 14:00-22:30 <br>
-					Descansamos los martes.
-				</p>
+				<p class="price red">$260</p>
 			</div>
 		</div>
 	</div>
-
 @stop

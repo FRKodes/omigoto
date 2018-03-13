@@ -14,5 +14,6 @@
         <footer>
             @include('partials.footer')
         </footer>
+        <script src="js/all.js"></script>
     </body>
 </html>

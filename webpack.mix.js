@@ -8,4 +8,12 @@ mix.js('resources/assets/js/app.js', 'public/js')
    		'public/css/bootstrap.min.css',
    		'public/css/slick.css',
    		'public/css/app.css'
-   		], 'public/css/all.css');
+   		], 'public/css/all.css')
+   .combine(
+   		[
+   		'public/js/jquery.js',
+   		'public/js/popper.js',
+   		'public/js/bootstrap.min.js',
+   		'public/js/slick.js',
+   		'public/js/app.js'
+   		], 'public/js/all.js');
