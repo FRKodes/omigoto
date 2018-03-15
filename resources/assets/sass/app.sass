@@ -45,6 +45,10 @@ body
 		right: 15px
 		&:hover
 			background: black
+		&:active
+			background: black
+		&:focus
+			background: black
 		.burger
 			display: block
 			height: auto
@@ -101,7 +105,10 @@ body
 					font-size: 2.2em
 				&.active
 					color: red
-.nigiri-container
+					text-decoration: none
+				&:hover
+					text-decoration: none
+.slider-container
 	height: auto
 	display: block
 	margin-top: 20px
@@ -113,6 +120,20 @@ body
 			width: 100%
 			height: auto
 			display: block
+		p
+			padding-left: 20px
+			padding-right: 20px
+.slick-arrow
+	border: none
+	background: none
+	position: absolute
+	top: 45%
+	font-size: 3em
+	color: transparent
+.slick-prev
+	left: -20px
+.slick-next
+	right: -20px
 .slick-dots
 	padding: 0
 	text-align: center
@@ -133,16 +154,20 @@ body
 	a
 		text-decoration: underline
 .bento-svg
-	width: 200px
+	width: 100%
 	height: auto
 .bentobox-content
 	padding: 0
+	li
+		display: block
 .price
 	font-size: 1.6em
 .map
 	background: gray
 	height: 220px
 .rapi-plus-uber
+	.uber-eats
+		width: 110px
 	ul
 		padding: 0
 		margin: 40px 0
@@ -159,12 +184,29 @@ body
 	justify-content: space-around
 	.instagram-item
 		width: 32%
-		height: 100px
+		height: auto
 		display: inline-block
 		background: gray
+		background-repeat: no-repeat
+		background-position: center center
+		background-size: cover
+		background-color: transparent
+		img
+			width: 100%
+			height: auto
+			display: block
+.icon-instagram
+	color: white
+	font-size: 3em
+	margin: 40px 0
+	&:hover
+		text-decoration: none
+		color: white
+	&:focus
+		text-decoration: none
+		color: white
 .credits
 	margin: 40px 0 20px 0
-
 @media screen and (min-width: 768px)
 	.navbar-toggle
 		display: block
@@ -195,6 +237,14 @@ body
 							margin-top: -17px
 					span
 						font-size: .4em
+	.slick-arrow
+		color: white
+	.slider-container
+		.item
+			text-align: center
+			img
+				width: 90%
+				display: inline-block
 	.download-menu
 		font-size: 1.8em
 	.bento-svg
@@ -221,6 +271,8 @@ body
 			li
 				img
 					width: 80px
+	.icon-instagram
+		font-size: 4em
 @media screen and (min-width: 1200px)
 	.navbar-brand > img
 		width: 180px

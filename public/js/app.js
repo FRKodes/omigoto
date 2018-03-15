@@ -60,59 +60,62 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 9);
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
 /******/ })
 /************************************************************************/
-/******/ ({
+/******/ ([
+/* 0 */
+/***/ (function(module, exports, __webpack_require__) {
 
-/***/ 10:
-/***/ (function(module, __webpack_exports__) {
+__webpack_require__(1);
+module.exports = __webpack_require__(2);
 
-"use strict";
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports) {
+
 $(function () {
-				console.log("ready!");
 
-				$('.dishes-menu a').on('click', function () {
-								console.log('ok!');
-				});
+	$('.dishes-menu a').on('click', function () {
+		var current_item = $(this).attr('data-identifier');
+		$('.dishes-menu a').removeClass('active');
+		$(this).addClass('active');
+		$('.slider-container').addClass('hidden');
+		$('.' + current_item).removeClass('hidden');
 
-				$('.nigiri-container').slick({
-								dots: false,
-								infinite: true,
-								speed: 300,
-								slidesToShow: 3,
-								slidesToScroll: 3,
-								responsive: [{
-												breakpoint: 768,
-												settings: {
-																slidesToShow: 1,
-																slidesToScroll: 1,
-																infinite: true,
-																dots: true
-												}
-												// You can unslick at a given breakpoint now by adding:
-												// settings: "unslick"
-												// instead of a settings object
-								}]
-				});
+		console.log(current_item);
+	});
+
+	$('.slider-container').slick({
+		dots: false,
+		infinite: true,
+		speed: 300,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		prevArrow: '<button type="button" class="slick-prev icon-left-arrow"></button>',
+		nextArrow: '<button type="button" class="slick-next icon-right-arrow"></button>',
+		responsive: [{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				infinite: true,
+				dots: true
+			}
+		}]
+	});
+
+	setTimeout(function () {
+		$('a.icon-nigiri').click();
+	}, 500);
 });
 
 /***/ }),
-
-/***/ 42:
+/* 2 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
-/***/ }),
-
-/***/ 9:
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(10);
-module.exports = __webpack_require__(42);
-
-
 /***/ })
-
-/******/ });
+/******/ ]);

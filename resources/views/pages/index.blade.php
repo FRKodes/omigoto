@@ -34,14 +34,16 @@
 			
 			<div class="col-xs-12 dishes-menu">
 				<ul>
-					<li><a href="#" class="icon-nigiri active"> &nbsp; <span class="hidden-xs mayus">nigiris</span></a></li>
-					<li><a href="#" class="icon-maki"> &nbsp; <span class="hidden-xs mayus">makis</span></a></li>
-					<li><a href="#" class="icon-handroll"> &nbsp; <span class="hidden-xs mayus">hand roll</span></a></li>
-					<li><a href="#" class="icon-entradas"> &nbsp; <span class="hidden-xs mayus">entradas / sopas</span></a></li>
+					<li><a data-identifier="nigiri-container" href="#show-nigiri" class="icon-nigiri active"> &nbsp; <span class="hidden-xs mayus">nigiris</span></a></li>
+					<li><a data-identifier="makis-container" href="#show-makis" class="icon-maki"> &nbsp; <span class="hidden-xs mayus">makis</span></a></li>
+					<li><a data-identifier="handroll-container" href="#show-handroll" class="icon-handroll"> &nbsp; <span class="hidden-xs mayus">hand roll</span></a></li>
+					<li><a data-identifier="entradas-container" href="#show-entradas" class="icon-entradas"> &nbsp; <span class="hidden-xs mayus">entradas / sopas</span></a></li>
 				</ul>
 			</div>
-
-			<div class="col-xs-12 nigiri-container">
+		</div>
+		
+		<div class="row all-sliders-container">
+			<div class="col-xs-12 slider-container nigiri-container">
 				<div class="item">
 					<img src="images/producto-nigiri-01.jpg" alt="producto nigiri 01">
 					<p class="title text-center">Nigiri de camarón</p>
@@ -62,8 +64,77 @@
 					<p class="title text-center">Nigiri de camarón</p>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisi sunt id dicta voluptate, ratione consectetur soluta laborum sequi impedit natus commodi quaerat fugit eum nobis, mollitia aut voluptatem ullam!</p>
 				</div>
-				
 			</div>
+
+			<div class="col-xs-12 slider-container makis-container">
+				<div class="item">
+					<img src="images/producto-nigiri-01.jpg" alt="producto nigiri 01">
+					<p class="title text-center">Makis</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisi sunt id dicta voluptate, ratione consectetur soluta laborum sequi impedit natus commodi quaerat fugit eum nobis, mollitia aut voluptatem ullam!</p>
+				</div>
+				<div class="item">
+					<img src="images/producto-nigiri-01.jpg" alt="producto nigiri 01">
+					<p class="title text-center">Makis</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisi sunt id dicta voluptate, ratione consectetur soluta laborum sequi impedit natus commodi quaerat fugit eum nobis, mollitia aut voluptatem ullam!</p>
+				</div>
+				<div class="item">
+					<img src="images/producto-nigiri-01.jpg" alt="producto nigiri 01">
+					<p class="title text-center">Makis</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisi sunt id dicta voluptate, ratione consectetur soluta laborum sequi impedit natus commodi quaerat fugit eum nobis, mollitia aut voluptatem ullam!</p>
+				</div>
+				<div class="item">
+					<img src="images/producto-nigiri-01.jpg" alt="producto nigiri 01">
+					<p class="title text-center">Makis</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisi sunt id dicta voluptate, ratione consectetur soluta laborum sequi impedit natus commodi quaerat fugit eum nobis, mollitia aut voluptatem ullam!</p>
+				</div>
+			</div>
+			
+			<div class="col-xs-12 slider-container handroll-container ">
+				<div class="item">
+					<img src="images/producto-nigiri-01.jpg" alt="producto nigiri 01">
+					<p class="title text-center">Handroll</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisi sunt id dicta voluptate, ratione consectetur soluta laborum sequi impedit natus commodi quaerat fugit eum nobis, mollitia aut voluptatem ullam!</p>
+				</div>
+				<div class="item">
+					<img src="images/producto-nigiri-01.jpg" alt="producto nigiri 01">
+					<p class="title text-center">Handroll</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisi sunt id dicta voluptate, ratione consectetur soluta laborum sequi impedit natus commodi quaerat fugit eum nobis, mollitia aut voluptatem ullam!</p>
+				</div>
+				<div class="item">
+					<img src="images/producto-nigiri-01.jpg" alt="producto nigiri 01">
+					<p class="title text-center">Handroll</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisi sunt id dicta voluptate, ratione consectetur soluta laborum sequi impedit natus commodi quaerat fugit eum nobis, mollitia aut voluptatem ullam!</p>
+				</div>
+				<div class="item">
+					<img src="images/producto-nigiri-01.jpg" alt="producto nigiri 01">
+					<p class="title text-center">Handroll</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisi sunt id dicta voluptate, ratione consectetur soluta laborum sequi impedit natus commodi quaerat fugit eum nobis, mollitia aut voluptatem ullam!</p>
+				</div>
+			</div>
+
+			<div class="col-xs-12 slider-container entradas-container ">
+				<div class="item">
+					<img src="images/producto-nigiri-01.jpg" alt="producto nigiri 01">
+					<p class="title text-center">Entradas/Sopas</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisi sunt id dicta voluptate, ratione consectetur soluta laborum sequi impedit natus commodi quaerat fugit eum nobis, mollitia aut voluptatem ullam!</p>
+				</div>
+				<div class="item">
+					<img src="images/producto-nigiri-01.jpg" alt="producto nigiri 01">
+					<p class="title text-center">Entradas/Sopas</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisi sunt id dicta voluptate, ratione consectetur soluta laborum sequi impedit natus commodi quaerat fugit eum nobis, mollitia aut voluptatem ullam!</p>
+				</div>
+				<div class="item">
+					<img src="images/producto-nigiri-01.jpg" alt="producto nigiri 01">
+					<p class="title text-center">Entradas/Sopas</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisi sunt id dicta voluptate, ratione consectetur soluta laborum sequi impedit natus commodi quaerat fugit eum nobis, mollitia aut voluptatem ullam!</p>
+				</div>
+				<div class="item">
+					<img src="images/producto-nigiri-01.jpg" alt="producto nigiri 01">
+					<p class="title text-center">Entradas/Sopas</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisi sunt id dicta voluptate, ratione consectetur soluta laborum sequi impedit natus commodi quaerat fugit eum nobis, mollitia aut voluptatem ullam!</p>
+				</div>
+			</div>
+
 		</div>
 
 		<div class="row">
@@ -83,16 +154,14 @@
 
 			<div class="col-xs-12 col-sm-8 col-md-7">
 				<ul class="bentobox-content">
-					<li>3 PARES DE NIGIRI (6 pzas totales)*</li>
-					<li>1 HAND ROLL O MAKI</li>
-					<li>1 YAKIMESHI (arroz frito) O MISO (sopa)</li>
-					<li>1 ENSALADA SUNOMONO (ensalada de pepino) O 1 SEAWEED (ensalada alga)</li>
-					<li>EDAMAMES</li>
+					<li>· &nbsp; 3 PARES DE NIGIRI (6 pzas totales)*</li>
+					<li>· &nbsp; 1 HAND ROLL O MAKI</li>
+					<li>· &nbsp; 1 YAKIMESHI (arroz frito) O MISO (sopa)</li>
+					<li>· &nbsp; 1 ENSALADA SUNOMONO (ensalada de pepino) O 1 SEAWEED (ensalada alga)</li>
+					<li>· &nbsp; EDAMAMES</li>
 				</ul>
 				
-				<p>
-					*Hamachi, Ikura y Unagui tiene costo extra.
-				</p>
+				<p>*Hamachi, Ikura y Unagui tiene costo extra.</p>
 
 				<p class="price red">$260</p>
 			</div>

@@ -5,9 +5,12 @@
     "license": "MIT",
     "type": "project",
     "require": {
-        "php": ">=5.6.4",
+        "php": ">=7.0",
         "laravel/framework": "5.4.*",
-        "laravel/tinker": "~1.0"
+        "laravel/tinker": "~1.0",
+        "php-http/guzzle6-adapter": "^1.1",
+        "php-http/message": "^1.6",
+        "vinkla/instagram": "8.0.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -46,6 +49,9 @@
     "config": {
         "preferred-install": "dist",
         "sort-packages": true,
-        "optimize-autoloader": true
+        "optimize-autoloader": true,
+        "platform": {
+            "php": "7.1"
+        }
     }
 }

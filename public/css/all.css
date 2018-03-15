@@ -8538,6 +8538,14 @@ body {
   background: black;
 }
 
+.navbar-default .navbar-toggle:active {
+  background: black;
+}
+
+.navbar-default .navbar-toggle:focus {
+  background: black;
+}
+
 .navbar-default .navbar-toggle .burger {
   display: block;
   height: auto;
@@ -8636,24 +8644,51 @@ body {
 
 .dishes-menu ul li a.active {
   color: red;
+  text-decoration: none;
 }
 
-.nigiri-container {
+.dishes-menu ul li a:hover {
+  text-decoration: none;
+}
+
+.slider-container {
   height: auto;
   display: block;
   margin-top: 20px;
 }
 
-.nigiri-container .item {
+.slider-container .item {
   height: auto;
   display: inline-block;
   width: 100%;
 }
 
-.nigiri-container .item img {
+.slider-container .item img {
   width: 100%;
   height: auto;
   display: block;
+}
+
+.slider-container .item p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.slick-arrow {
+  border: none;
+  background: none;
+  position: absolute;
+  top: 45%;
+  font-size: 3em;
+  color: transparent;
+}
+
+.slick-prev {
+  left: -20px;
+}
+
+.slick-next {
+  right: -20px;
 }
 
 .slick-dots {
@@ -8686,12 +8721,16 @@ body {
 }
 
 .bento-svg {
-  width: 200px;
+  width: 100%;
   height: auto;
 }
 
 .bentobox-content {
   padding: 0;
+}
+
+.bentobox-content li {
+  display: block;
 }
 
 .price {
@@ -8701,6 +8740,10 @@ body {
 .map {
   background: gray;
   height: 220px;
+}
+
+.rapi-plus-uber .uber-eats {
+  width: 110px;
 }
 
 .rapi-plus-uber ul {
@@ -8730,9 +8773,35 @@ body {
 
 .instagram-feed .instagram-item {
   width: 32%;
-  height: 100px;
+  height: auto;
   display: inline-block;
   background: gray;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: transparent;
+}
+
+.instagram-feed .instagram-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.icon-instagram {
+  color: white;
+  font-size: 3em;
+  margin: 40px 0;
+}
+
+.icon-instagram:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.icon-instagram:focus {
+  text-decoration: none;
+  color: white;
 }
 
 .credits {
@@ -8792,6 +8861,19 @@ body {
     font-size: .4em;
   }
 
+  .slick-arrow {
+    color: white;
+  }
+
+  .slider-container .item {
+    text-align: center;
+  }
+
+  .slider-container .item img {
+    width: 90%;
+    display: inline-block;
+  }
+
   .download-menu {
     font-size: 1.8em;
   }
@@ -8834,6 +8916,10 @@ body {
 
   .rapi-plus-uber ul li img {
     width: 80px;
+  }
+
+  .icon-instagram {
+    font-size: 4em;
   }
 }
 
