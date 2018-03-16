@@ -1,7 +1,7 @@
 @extends('app')
 
 @section('content')
-	<div class="container">
+	<div class="container" id="home">
 		<div class="row">
 			<div class="main-banners-container">
 				<div class="item one"></div>
@@ -12,14 +12,14 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-6 col-sm-offset-6">
-				<h1 class="title">Nuestro concepto</h1>
+				<h1 id="concepto" class="title">Nuestro concepto</h1>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm-6">
+			<div class="col-md-6">
 				<div class="concept-image"><img src="images/concepto-omigoto-nigiri-to-go.jpg" alt="Imagen concepto omigoto nigiri to go"></div>
 			</div>
-			<div class="col-sm-6 concept-text-container">
+			<div class="col-md-6 concept-text-container">
 				<p class="concep-text">Es un nuevo concepto de comida japonesa que pretende brindar la más alta calidad, frescura, innovación en sus platillos a un precio razonable. A través de una barra en donde expertos preparan los mejores platillos se pretende que OMIGOTO sea la opción ideal para quien desea pedidos para llevar; Además contamos con servicio a domicilio propio, Rappi, Uber Eats entre otros.</p>
 				<p class="concep-text">En caso de que se requiera OMIGOTO cuenta con una pequeña barra para que los clientes puedan disfrutar la frescura, sabor y calidad en el lugar. A través de innovación en sus empaques, así como un proyecto arquitectónico elegante, distinguido y original OMIGOTO pretende convertirse en una opción original, una experiencia agradable y una excelente opción en términos de precio-calidad.</p>
 			</div>
@@ -29,7 +29,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 text-center">
-				<h2 class="title">Platillos</h2>
+				<h2 class="title" id="platillos">Platillos</h2>
 			</div>
 			
 			<div class="col-xs-12 dishes-menu">

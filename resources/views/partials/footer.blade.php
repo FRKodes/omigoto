@@ -23,7 +23,7 @@
 		</div>
 	</div>
 
-	<div class="row">
+	<div class="row" id="contacto">
 		<div class="col-xs-12 rapi-plus-uber">
 			<ul>
 				<li><a href="#"><img class="uber-eats" src="/images/ue-logo.svg" alt="ubereats logo"></a></li>

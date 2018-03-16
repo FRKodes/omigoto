@@ -8350,12 +8350,20 @@ button.close {
   }
 }
 
+body {
+  padding-top: 80px;
+}
+
 .mayus {
   text-transform: uppercase;
 }
 
 .underline {
   text-decoration: underline;
+}
+
+.red {
+  color: #cc030d;
 }
 
 .red {
@@ -8407,7 +8415,7 @@ body {
 }
 
 .navbar-default {
-  background: black;
+  background: rgba(0, 0, 0, 0.9);
   border: none;
 }
 
@@ -8433,9 +8441,24 @@ body {
 }
 
 .navbar-default .navbar-toggle .burger {
-  display: block;
   height: auto;
   width: 40px;
+  display: none;
+}
+
+.navbar-default .navbar-toggle .burger.active {
+  display: block;
+}
+
+.navbar-default .navbar-toggle .close {
+  height: auto;
+  width: 40px;
+  display: none;
+  opacity: 1;
+}
+
+.navbar-default .navbar-toggle .close.active {
+  display: block;
 }
 
 .navbar-header {
@@ -8458,6 +8481,46 @@ body {
 .navbar-brand > img {
   height: auto;
   width: 120px;
+}
+
+.navbar-default .navbar-collapse {
+  position: absolute;
+  width: 100%;
+  top: 60px;
+  background: black;
+  left: 0;
+  border: none;
+  margin: 0;
+}
+
+.navbar-default .navbar-collapse li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.navbar-default .navbar-nav > .active > a {
+  color: white;
+  background: none;
+  -webkit-transition: color 1s ease;
+  transition: color 1s ease;
+}
+
+.navbar-default .navbar-nav > .active > a:focus {
+  background: none;
+  color: white;
+  -webkit-transition: color 1s ease;
+  transition: color 1s ease;
+}
+
+.navbar-default .navbar-nav > .active > a:hover {
+  background: none;
+  color: white;
+  -webkit-transition: color 1s ease;
+  transition: color 1s ease;
 }
 
 .main-banners-container {
@@ -8699,6 +8762,32 @@ body {
     display: block;
   }
 
+  .navbar-collapse.collapse.show {
+    right: 0;
+    -webkit-transition: right .1s ease;
+    transition: right .1s ease;
+  }
+
+  .navbar-default .navbar-collapse {
+    position: fixed;
+    width: 25%;
+    height: 100% !important;
+    left: initial;
+    right: -30%;
+    margin: 0;
+    -webkit-transition: right .3s ease;
+    transition: right .3s ease;
+    top: 60px;
+    min-height: 100%;
+  }
+
+  .navbar-nav {
+    text-align: center;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   .main-banners-container {
     height: 420px;
   }
@@ -8715,10 +8804,11 @@ body {
 
   .concept-text-container {
     padding-top: 0;
+    margin-top: -30px;
   }
 
   .concept-image {
-    margin-top: -50px;
+    margin-top: -80px;
   }
 
   .dishes-menu ul li a {
@@ -8810,8 +8900,41 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
+  .navbar {
+    min-height: 80px;
+  }
+
+  .navbar-brand {
+    height: 80px;
+  }
+
   .navbar-brand > img {
     width: 180px;
+  }
+
+  .navbar-toggle {
+    display: none;
+  }
+
+  .navbar-default .navbar-collapse {
+    width: 60px;
+    right: 10px;
+    background: transparent;
+  }
+
+  .navbar-nav {
+    text-align: center;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .navbar-nav > li > a {
+    font-size: 2.4em;
+  }
+
+  .navbar-default .navbar-nav > .active > a {
+    font-size: 2.8em;
   }
 
   .main-banners-container {

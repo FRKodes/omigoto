@@ -1,5 +1,24 @@
 $(function() {
 
+	$('.navbar-toggle').on('click', function () {
+		$('.burger, .close').delay(500).toggleClass('active');
+		console.log('clicked!');
+	});
+
+	$('.navbar-nav li a').on('click', function () {
+		var this_section = $(this).attr('data-href');
+		console.log(this_section);
+		$('.navbar-nav li').removeClass('active');
+		$(this).parent().addClass('active');
+
+		/*Smooth scrolling*/
+		event.preventDefault();
+		$('html, body').animate({
+			scrollTop: $("#" + this_section).offset().top
+		}, 500);
+
+	});
+
     $('.dishes-menu a').on('click', function () {
     	var current_item = $(this).attr('data-identifier');
     	$('.dishes-menu a').removeClass('active');
@@ -36,6 +55,6 @@ $(function() {
 		function() {
 			$('a.icon-nigiri').click();
 		},
-	500);
+	1000);
 	
 });
