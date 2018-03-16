@@ -45,93 +45,63 @@
 		<div class="row all-sliders-container">
 			<div class="col-xs-12 slider-container nigiri-container">
 				<div class="item">
-					<img src="images/producto-nigiri-01.jpg" alt="producto nigiri 01">
-					<p class="title text-center">Nigiri de camarón</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisi sunt id dicta voluptate, ratione consectetur soluta laborum sequi impedit natus commodi quaerat fugit eum nobis, mollitia aut voluptatem ullam!</p>
+					<img src="images/producto-nigiri-unagui.png" alt="producto nigiri Unagui">
+					<p class="title text-center">Nigiri Unagui</p>
+					<p>2 Piezas de anguila</p>
 				</div>
 				<div class="item">
-					<img src="images/producto-nigiri-01.jpg" alt="producto nigiri 01">
-					<p class="title text-center">Nigiri de camarón</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisi sunt id dicta voluptate, ratione consectetur soluta laborum sequi impedit natus commodi quaerat fugit eum nobis, mollitia aut voluptatem ullam!</p>
+					<img src="images/producto-nigiri-camaron-dulce.png" alt="producto nigiri camarón">
+					<p class="title text-center">Nigiri Camarón Dulce</p>
+					<p>2 piezas de pulpo</p>
 				</div>
 				<div class="item">
-					<img src="images/producto-nigiri-01.jpg" alt="producto nigiri 01">
-					<p class="title text-center">Nigiri de camarón</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisi sunt id dicta voluptate, ratione consectetur soluta laborum sequi impedit natus commodi quaerat fugit eum nobis, mollitia aut voluptatem ullam!</p>
+					<img src="images/producto-nigiri-salmon.jpg" alt="producto nigiri salmón">
+					<p class="title text-center">Nigiri Salmón</p>
+					<p>2 Piezas de Salmón</p>
 				</div>
 				<div class="item">
-					<img src="images/producto-nigiri-01.jpg" alt="producto nigiri 01">
-					<p class="title text-center">Nigiri de camarón</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisi sunt id dicta voluptate, ratione consectetur soluta laborum sequi impedit natus commodi quaerat fugit eum nobis, mollitia aut voluptatem ullam!</p>
+					<img src="images/producto-nigiri-tako.png" alt="producto nigiri pulpo">
+					<p class="title text-center">Nigiri Tako</p>
+					<p>2 piezas de pulpo</p>
+				</div>
+				<div class="item">
+					<img src="images/producto-nigiri-atun.jpg" alt="producto nigiri atún">
+					<p class="title text-center">Nigiri Atún</p>
+					<p>2 Piezas de Atún</p>
+				</div>
+				<div class="item">
+					<img src="images/producto-nigiri-siromi.png" alt="producto nigiri siromi">
+					<p class="title text-center">Nigiri Siromi</p>
+					<p>2 piezas de pescado blanco</p>
 				</div>
 			</div>
 
 			<div class="col-xs-12 slider-container makis-container">
 				<div class="item">
-					<img src="images/producto-nigiri-01.jpg" alt="producto nigiri 01">
-					<p class="title text-center">Makis</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisi sunt id dicta voluptate, ratione consectetur soluta laborum sequi impedit natus commodi quaerat fugit eum nobis, mollitia aut voluptatem ullam!</p>
-				</div>
-				<div class="item">
-					<img src="images/producto-nigiri-01.jpg" alt="producto nigiri 01">
-					<p class="title text-center">Makis</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisi sunt id dicta voluptate, ratione consectetur soluta laborum sequi impedit natus commodi quaerat fugit eum nobis, mollitia aut voluptatem ullam!</p>
-				</div>
-				<div class="item">
-					<img src="images/producto-nigiri-01.jpg" alt="producto nigiri 01">
-					<p class="title text-center">Makis</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisi sunt id dicta voluptate, ratione consectetur soluta laborum sequi impedit natus commodi quaerat fugit eum nobis, mollitia aut voluptatem ullam!</p>
-				</div>
-				<div class="item">
-					<img src="images/producto-nigiri-01.jpg" alt="producto nigiri 01">
-					<p class="title text-center">Makis</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisi sunt id dicta voluptate, ratione consectetur soluta laborum sequi impedit natus commodi quaerat fugit eum nobis, mollitia aut voluptatem ullam!</p>
+					<img src="images/producto-maki.png" alt="producto maki">
+					<p class="title text-center">Maki</p>
+					<p>Lorem ipsum dolor sit amet</p>
 				</div>
 			</div>
 			
 			<div class="col-xs-12 slider-container handroll-container ">
 				<div class="item">
-					<img src="images/producto-nigiri-01.jpg" alt="producto nigiri 01">
+					<img src="images/producto-taco-handroll.jpg" alt="producto taco handroll">
 					<p class="title text-center">Handroll</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisi sunt id dicta voluptate, ratione consectetur soluta laborum sequi impedit natus commodi quaerat fugit eum nobis, mollitia aut voluptatem ullam!</p>
-				</div>
-				<div class="item">
-					<img src="images/producto-nigiri-01.jpg" alt="producto nigiri 01">
-					<p class="title text-center">Handroll</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisi sunt id dicta voluptate, ratione consectetur soluta laborum sequi impedit natus commodi quaerat fugit eum nobis, mollitia aut voluptatem ullam!</p>
-				</div>
-				<div class="item">
-					<img src="images/producto-nigiri-01.jpg" alt="producto nigiri 01">
-					<p class="title text-center">Handroll</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisi sunt id dicta voluptate, ratione consectetur soluta laborum sequi impedit natus commodi quaerat fugit eum nobis, mollitia aut voluptatem ullam!</p>
-				</div>
-				<div class="item">
-					<img src="images/producto-nigiri-01.jpg" alt="producto nigiri 01">
-					<p class="title text-center">Handroll</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisi sunt id dicta voluptate, ratione consectetur soluta laborum sequi impedit natus commodi quaerat fugit eum nobis, mollitia aut voluptatem ullam!</p>
+					<p>Lorem ipsum dolor sit amet</p>
 				</div>
 			</div>
 
 			<div class="col-xs-12 slider-container entradas-container ">
 				<div class="item">
-					<img src="images/producto-nigiri-01.jpg" alt="producto nigiri 01">
-					<p class="title text-center">Entradas/Sopas</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisi sunt id dicta voluptate, ratione consectetur soluta laborum sequi impedit natus commodi quaerat fugit eum nobis, mollitia aut voluptatem ullam!</p>
+					<img src="images/producto-yakimeshi.png" alt="producto yakimeshi">
+					<p class="title text-center">Yakimeshi</p>
+					<p>Arroz frito vegetariano</p>
 				</div>
 				<div class="item">
-					<img src="images/producto-nigiri-01.jpg" alt="producto nigiri 01">
-					<p class="title text-center">Entradas/Sopas</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisi sunt id dicta voluptate, ratione consectetur soluta laborum sequi impedit natus commodi quaerat fugit eum nobis, mollitia aut voluptatem ullam!</p>
-				</div>
-				<div class="item">
-					<img src="images/producto-nigiri-01.jpg" alt="producto nigiri 01">
-					<p class="title text-center">Entradas/Sopas</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisi sunt id dicta voluptate, ratione consectetur soluta laborum sequi impedit natus commodi quaerat fugit eum nobis, mollitia aut voluptatem ullam!</p>
-				</div>
-				<div class="item">
-					<img src="images/producto-nigiri-01.jpg" alt="producto nigiri 01">
-					<p class="title text-center">Entradas/Sopas</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisi sunt id dicta voluptate, ratione consectetur soluta laborum sequi impedit natus commodi quaerat fugit eum nobis, mollitia aut voluptatem ullam!</p>
+					<img src="images/producto-sopa-miso.png" alt="producto Sopa Miso">
+					<p class="title text-center">Miso</p>
+					<p>Sopa de soya</p>
 				</div>
 			</div>
 
@@ -139,7 +109,7 @@
 
 		<div class="row">
 			<div class="col-xs-12">
-				<p class="text-center download-menu"><a href="#" class="red">Descarga nuestro menú</a></p>
+				<p class="text-center download-menu"><a href="/pdf/menu-omigoto.pdf" target="_blank" class="red">Descarga nuestro menú</a></p>
 			</div>
 		</div>
 		
