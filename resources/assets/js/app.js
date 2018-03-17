@@ -55,6 +55,6 @@ $(function() {
 		function() {
 			$('a.icon-nigiri').click();
 		},
-	1000);
+	2500);
 	
 });
