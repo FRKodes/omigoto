@@ -140,9 +140,11 @@ $(function () {
 		}]
 	});
 
-	setTimeout(function () {
-		$('a.icon-nigiri').click();
-	}, 2500);
+	// setTimeout(
+	// 	function() {
+	// 		$('a.icon-nigiri').click();
+	// 	},
+	// 2500);
 });
 
 /***/ }),

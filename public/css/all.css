@@ -8771,6 +8771,12 @@ body {
   margin: 10px 5px;
 }
 
+.slick-dots li button {
+  background: none;
+  border: none;
+  color: transparent;
+}
+
 .slick-dots li.slick-active {
   background: red;
 }

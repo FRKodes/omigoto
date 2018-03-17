@@ -44,32 +44,32 @@
 		
 		<div class="row all-sliders-container">
 			<div class="col-xs-12 slider-container nigiri-container">
-				<div class="item">
+				<div class="item text-center">
 					<img src="images/producto-nigiri-unagui.png" alt="producto nigiri Unagui">
 					<p class="title text-center">Nigiri Unagui</p>
 					<p>2 Piezas de anguila</p>
 				</div>
-				<div class="item">
+				<div class="item text-center">
 					<img src="images/producto-nigiri-camaron-dulce.png" alt="producto nigiri camarón">
 					<p class="title text-center">Nigiri Camarón Dulce</p>
 					<p>2 piezas de pulpo</p>
 				</div>
-				<div class="item">
+				<div class="item text-center">
 					<img src="images/producto-nigiri-salmon.jpg" alt="producto nigiri salmón">
 					<p class="title text-center">Nigiri Salmón</p>
 					<p>2 Piezas de Salmón</p>
 				</div>
-				<div class="item">
+				<div class="item text-center">
 					<img src="images/producto-nigiri-tako.png" alt="producto nigiri pulpo">
 					<p class="title text-center">Nigiri Tako</p>
 					<p>2 piezas de pulpo</p>
 				</div>
-				<div class="item">
+				<div class="item text-center">
 					<img src="images/producto-nigiri-atun.jpg" alt="producto nigiri atún">
 					<p class="title text-center">Nigiri Atún</p>
 					<p>2 Piezas de Atún</p>
 				</div>
-				<div class="item">
+				<div class="item text-center">
 					<img src="images/producto-nigiri-siromi.png" alt="producto nigiri siromi">
 					<p class="title text-center">Nigiri Siromi</p>
 					<p>2 piezas de pescado blanco</p>
@@ -77,7 +77,7 @@
 			</div>
 
 			<div class="col-xs-12 slider-container makis-container">
-				<div class="item">
+				<div class="item text-center">
 					<img src="images/producto-maki.png" alt="producto maki">
 					<p class="title text-center">Maki</p>
 					<p>Lorem ipsum dolor sit amet</p>
@@ -85,7 +85,7 @@
 			</div>
 			
 			<div class="col-xs-12 slider-container handroll-container ">
-				<div class="item">
+				<div class="item text-center">
 					<img src="images/producto-taco-handroll.jpg" alt="producto taco handroll">
 					<p class="title text-center">Handroll</p>
 					<p>Lorem ipsum dolor sit amet</p>
@@ -93,12 +93,12 @@
 			</div>
 
 			<div class="col-xs-12 slider-container entradas-container ">
-				<div class="item">
+				<div class="item text-center">
 					<img src="images/producto-yakimeshi.png" alt="producto yakimeshi">
 					<p class="title text-center">Yakimeshi</p>
 					<p>Arroz frito vegetariano</p>
 				</div>
-				<div class="item">
+				<div class="item text-center">
 					<img src="images/producto-sopa-miso.png" alt="producto Sopa Miso">
 					<p class="title text-center">Miso</p>
 					<p>Sopa de soya</p>
