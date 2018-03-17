@@ -25,6 +25,7 @@ $(function() {
     	$(this).addClass('active');
     	$('.slider-container').addClass('hidden');
 		$('.' + current_item).removeClass('hidden');
+		$('.slider-container').css({'position':'relative', 'left': 0});
 
     	console.log(current_item);
     })
