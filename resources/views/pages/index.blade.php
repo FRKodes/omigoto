@@ -109,7 +109,7 @@
 
 		<div class="row">
 			<div class="col-xs-12">
-				<p class="text-center download-menu"><a href="/pdf/menu-omigoto.pdf" target="_blank" class="red">Descarga nuestro menú</a></p>
+				<p class="text-center download-menu"><a href="/images/menu_omigoto_con_bento.jpg" target="_blank" class="red">Descarga nuestro menú</a></p>
 			</div>
 		</div>
 		
