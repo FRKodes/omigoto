@@ -84,7 +84,7 @@
 				</div>
 			</div>
 			
-			<div class="col-xs-12 slider-container handroll-container ">
+			<div class="col-xs-12 slider-container handroll-container">
 				<div class="item text-center">
 					<img src="images/producto-taco-handroll.jpg" alt="producto taco handroll">
 					<p class="title text-center">Handroll</p>
@@ -92,7 +92,7 @@
 				</div>
 			</div>
 
-			<div class="col-xs-12 slider-container entradas-container ">
+			<div class="col-xs-12 slider-container entradas-container">
 				<div class="item text-center">
 					<img src="images/producto-yakimeshi.png" alt="producto yakimeshi">
 					<p class="title text-center">Yakimeshi</p>
