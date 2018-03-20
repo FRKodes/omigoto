@@ -33,8 +33,8 @@
 		<div class="col-xs-12 col-sm-10 col-sm-offset-1 instagram-feed">
 			@foreach($posts as $post)
 				<div class="instagram-item" style="background-image: url({{ $post->images->standard_resolution->url }})">
-					<a href="{{ $post->link }}" target="_blank" title="Ver... @if($post->caption->text) {{ $post->caption->text }} @endif">
-						<img src="images/pixel-transparent.png" alt="@if($post->caption->text) {{ $post->caption->text }} @endif">
+					<a href="{{ $post->link }}" target="_blank" title="Ver post">
+						<img src="images/pixel-transparent.png" alt="Instagram omigotomx">
 					</a>
 				</div>
 			@endforeach
