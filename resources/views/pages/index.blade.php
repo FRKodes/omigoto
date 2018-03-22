@@ -70,8 +70,8 @@
 					<p>2 Piezas de Atún</p>
 				</div>
 				<div class="item text-center">
-					<img src="images/producto-nigiri-siromi.png" alt="producto nigiri siromi">
-					<p class="title text-center">Nigiri Siromi</p>
+					<img src="images/producto-nigiri-hamachi.png" alt="producto nigiri Hamachi">
+					<p class="title text-center">Nigiri Hamachi</p>
 					<p>2 piezas de pescado blanco</p>
 				</div>
 			</div>
