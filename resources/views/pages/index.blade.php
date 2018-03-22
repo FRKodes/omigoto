@@ -78,17 +78,22 @@
 
 			<div class="col-xs-12 slider-container makis-container">
 				<div class="item text-center">
-					<img src="images/producto-maki.png" alt="producto maki">
-					<p class="title text-center">Maki</p>
-					<p>Lorem ipsum dolor sit amet</p>
+					<img src="images/omigoto_maki_california.jpg" alt="producto omigoto maki california">
+					<p class="title text-center">Rollo California</p>
+					<p>Alga por afuera con pepino, aguacate, queso philadelphia y marisco de tu elección al centro</p>
+				</div>
+				<div class="item text-center">
+					<img src="images/omigoto_maki_alasja_roll.jpg" alt="producto omigoto maki alasja roll">
+					<p class="title text-center">Rollo Alaska</p>
+					<p>Rollo envuelto en salmon, al centro aguacate, queso philadelphia y pepino, coronado con aderezo especial de kani</p>
 				</div>
 			</div>
 			
 			<div class="col-xs-12 slider-container handroll-container">
 				<div class="item text-center">
-					<img src="images/producto-maki.png" alt="producto maki">
-					<p class="title text-center">Hand roll</p>
-					<p>Spicy tuna</p>
+					<img src="images/producto-maki.png" alt="producto hand roll atún spicy">
+					<p class="title text-center">Hand Roll Atún Spicy</p>
+					<p>atún con adarezo spicy</p>
 				</div>
 			</div>
 
