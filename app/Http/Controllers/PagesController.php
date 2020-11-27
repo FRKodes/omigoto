@@ -9,9 +9,9 @@ class PagesController extends Controller
 {
     public function index()
     {
-    	$instagram = new Instagram(env('IG-TOKEN'));
-    	$posts = array_slice($instagram->get(), 0, 3);
-    	return View('pages.index', compact('posts'));
+    	// $instagram = new Instagram(env('IG-TOKEN'));
+    	// $posts = array_slice($instagram->get(), 0, 3);
+    	return View('pages.index');
     }
 
     public function php()
